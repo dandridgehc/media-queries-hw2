@@ -1,0 +1,123 @@
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { }
+
+
+
+
+/* iPhone*/
+@media screen and (max-device-width: 480px) {
+
+    body {
+        width: 480px
+      
+        }
+        .contentbox {
+        width: 450px;
+      }
+      .navbar {
+        width: 450px;
+      }
+
+      .portfolioimages img {
+        width: 100px;
+        height: 100px;
+        padding: 35px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        float: left;
+        right: 100px;
+      }
+
+      .about {
+        width:350px;
+    }
+
+    .about img {
+        width:75px;
+        height:75px;
+    }
+    .socialbox {
+        width:350px;
+    }
+    
+    .iconwrapper {
+        width:200px;
+        height: 200px;
+    }
+    .icons {
+        width:50px;
+        height:50px;
+    }
+    #wrapper {
+        width:480px;
+    }
+
+} 
+
+
+
+/* iPad */
+@media screen and (max-device-width: 768px) and (min-device-width:481px) {
+    
+    body {
+        width: 768px
+      
+        }
+        .contentbox {
+        width: 650px;
+      }
+      .navbar {
+        width: 768px;
+      }
+
+      .portfolioimages img {
+        width: 150px;
+        height: 150px;
+        padding: 35px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        float: left;
+        right: 100px;
+        
+      }
+
+      .about {
+          width:500px;
+      }
+
+      .about img {
+          width:150px;
+          height:150px;
+      }
+      .socialbox {
+          width:500px;
+      }
+      
+      .iconwrapper {
+          width:200px;
+          height: 200px;
+      }
+      .icons {
+          width:50px;
+          height:50px;
+      }
+      #wrapper {
+          width:786px;
+      }
+}
+
+
